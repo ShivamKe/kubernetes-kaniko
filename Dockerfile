@@ -2,6 +2,6 @@ FROM ubuntu:latest
 
 RUN apt-get update -y
 
-RUN echo "sleeping for a day"
+RUN sleep 1d
 
 CMD ["sh", "-c", "sleep 1d"]
